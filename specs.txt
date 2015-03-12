@@ -48,3 +48,7 @@ Output: "Try Again"
 11.  Input that is multiple letters and doesn't include a Y or a vowel returns "Try Again"
 Input: "BC"
 Output: "Try Again"
+
+12. Adding together two character values as simplest test
+Input:"A A"
+Output:2

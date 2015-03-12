@@ -108,5 +108,18 @@
             //Assert
             $this->assertEquals("10", $result);
         }
+
+        function test_adding_two_single_characters()
+        {
+            //Arrange
+            $test_adding_two_single_characters = new Scrabble;
+            $player_input = "AA";
+
+            //Act
+            $result = $test_adding_two_single_characters->getWordValue($player_input);
+
+            //Assert
+            $this->assertEquals("2", $result);
+        }
     }
 ?>

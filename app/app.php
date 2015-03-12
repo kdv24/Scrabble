@@ -15,6 +15,14 @@
 
 // scrabble_logic is path from form
 
+    $app->post("/scrabble_logic", function() use ($app)
+    {
+        $new_scrabble_input = new Scrabble;
+        $output = $new_scrabble_input->getWordValue ($_POST['scrabble_input']);
+
+        return $app['twig'] -> render ('results.twig', array('scrabble_value' => $output));
+    });
+
 return $app;
 
 

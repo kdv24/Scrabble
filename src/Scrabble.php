@@ -2,41 +2,46 @@
     class Scrabble
     {
         function getWordValue($player_input)
-        {
-            //A E I O U L N R S T
-            if(($player_input == "A") || ($player_input == "E") || ($player_input == "I") || ($player_input == "O") || ($player_input == "U") || ($player_input == "L") || ($player_input == "N") || ($player_input == "R") || ($player_input == "S") || ($player_input == "T"))
+        {   $score = 0;
+            $input_characters = array();
+            $input_characters = str_split($player_input);
+            foreach ($input_characters as $letter)
             {
-                return "1";
-            }
+                //A E I O U L N R S T
+                if(($letter == "A") || ($letter == "E") || ($letter == "I") || ($letter == "O") || ($letter == "U") || ($letter == "L") || ($letter == "N") || ($letter == "R") || ($letter == "S") || ($letter == "T"))
+                {
+                $score = $score + 1;
+                }
 
-            elseif(($player_input == "G") || ($player_input =="D"))
-            {
-                return "2";
-            }
+                elseif(($letter == "G") || ($letter =="D"))
+                {
+                $score = $score +  2;
+                }
 
-            elseif(($player_input =="B") || ($player_input =="C") || ($player_input == "M")  || ($player_input =="P"))
-            {
-                return "3";
-            }
+                elseif(($letter =="B") || ($letter =="C") || ($letter == "M")  || ($letter =="P"))
+                {
+                $score = $score +  3;
+                }
 
-            elseif(($player_input == "F") || ($player_input == "H") || ($player_input =="V") || ($player_input == "W") || ($player_input == "Y"))
-            {
-                return "4";
-            }
+                elseif(($letter == "F") || ($letter == "H") || ($letter =="V") || ($letter == "W") || ($letter == "Y"))
+                {
+                $score = $score +  4;
+                }
 
-            elseif($player_input == "K")
-            {
-                return "5";
-            }
+                elseif($letter == "K")
+                {
+                $score = $score +  5;
+                }
 
-            elseif(($player_input == "J") || ($player_input == "X"))
-            {
-                return "8";
-            }
+                elseif(($letter == "J") || ($letter == "X"))
+                {
+                $score = $score +  8;
+                }
 
-            elseif(($player_input == "Q") || ($player_input == "Z"))
-            {
-                return "10";
+                elseif(($letter == "Q") || ($letter == "Z"))
+                {
+                $score = $score +  10;
+                }
             }
         }
 
