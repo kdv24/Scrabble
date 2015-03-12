@@ -4,12 +4,12 @@ x 1.  Input of uppercase single letter (A) returns single letter value of "1"
 Input: "A"
 Output: "1"
 
-1.5. Input of A E I O U L N R S T each return value of "1".
+x 1.5. Input of A E I O U L N R S T each return value of "1".
 Input: "E"
 Output: "1"
 
 
-2.  Input of D or G returns value of 2
+x 2.  Input of D or G returns value of 2
 Input: "D"
 Output: "2"
 
