@@ -28,6 +28,11 @@
             {
                 return "5";
             }
+
+            elseif(($player_input == "J") || ($player_input == "X"))
+            {
+                return "8";
+            }
         }
 
 

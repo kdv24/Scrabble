@@ -21,7 +21,7 @@ x 4.  Input of single letter (F H V W Y) returns single letter value of "4"
 Input: "F"
 Output: "4"
 
-5.  Input of single letter (K) returns single letter value of "5"
+x5.  Input of single letter (K) returns single letter value of "5"
 Input: "K"
 Output: "5"
 

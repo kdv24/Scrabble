@@ -81,5 +81,18 @@
             //Assert
             $this->assertEquals("5", $result);
         }
+
+        function test_variety_value_8()
+        {
+            //Arrange
+            $test_variety_value_8 = new Scrabble;
+            $player_input = "J";
+
+            //Act
+            $result = $test_variety_value_8->getWordValue($player_input);
+
+            //Assert
+            $this->assertEquals("8", $result);
+        }
     }
 ?>
