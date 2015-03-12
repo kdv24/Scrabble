@@ -9,9 +9,14 @@
                 return "1";
             }
 
-            elseif($player_input == "G" || "D")
+            elseif(($player_input == "G") || ($player_input =="D"))
             {
                 return "2";
+            }
+
+            elseif(($player_input =="B") || ($player_input =="C") || ($player_input == "M")  || ($player_input =="P"))
+            {
+                return "3";
             }
         }
 
