@@ -18,6 +18,11 @@
             {
                 return "3";
             }
+
+            elseif(($player_input == "F") || ($player_input == "H") || ($player_input =="V") || ($player_input == "W") || ($player_input == "Y"))
+            {
+                return "4";
+            }
         }
 
 

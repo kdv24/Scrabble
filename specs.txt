@@ -13,7 +13,7 @@ x 2.  Input of D or G returns value of 2
 Input: "D"
 Output: "2"
 
-3.  Input of single letter ( B C M P) returns single letter value of "3"
+x 3.  Input of single letter ( B C M P) returns single letter value of "3"
 Input: "B"
 Output: "3"
 

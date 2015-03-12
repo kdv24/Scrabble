@@ -55,5 +55,18 @@
             //Assert
             $this->assertEquals("3", $result);
         }
+
+        function test_varety_value_4()
+        {
+            //Arrange
+            $test_variety_value_4 = new Scrabble;
+            $player_input = "F";
+
+            //Act
+            $result = $test_variety_value_4->getWordValue($player_input);
+
+            //Assert
+            $this->assertEquals("4", $result);
+        }
     }
 ?>
