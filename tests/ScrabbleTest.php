@@ -94,5 +94,19 @@
             //Assert
             $this->assertEquals("8", $result);
         }
+
+        function test_variety_value_10()
+        {
+
+            //Arrange
+            $test_variety_value_10 = new Scrabble;
+            $player_input = "Q";
+
+            //Act
+            $result = $test_variety_value_10->getWordValue($player_input);
+
+            //Assert
+            $this->assertEquals("10", $result);
+        }
     }
 ?>

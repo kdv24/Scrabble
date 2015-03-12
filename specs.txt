@@ -25,7 +25,7 @@ x5.  Input of single letter (K) returns single letter value of "5"
 Input: "K"
 Output: "5"
 
-6.  Input of single letter (J X) returns single letter value of "8"
+x 6.  Input of single letter (J X) returns single letter value of "8"
 Input: "J"
 Output: "8"
 

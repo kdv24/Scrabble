@@ -33,6 +33,11 @@
             {
                 return "8";
             }
+
+            elseif(($player_input == "Q") || ($player_input == "Z"))
+            {
+                return "10";
+            }
         }
 
 
