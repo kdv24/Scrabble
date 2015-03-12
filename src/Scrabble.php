@@ -1,6 +1,14 @@
 <?php
+
+    require_once __DIR__.'/ScrabbleDictionary.php';
+
     class Scrabble
     {
+        function compareWords($player_input)
+        {
+
+        }
+
         function getWordValue($player_input)
         {   $score = 0;
             $player_inputUC = strtoupper($player_input);
@@ -57,8 +65,9 @@
 
                 }
 
+
+
             }
-            // var_dump($score);
 
             return $score;
 
