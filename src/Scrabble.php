@@ -23,6 +23,11 @@
             {
                 return "4";
             }
+
+            elseif($player_input == "K")
+            {
+                return "5";
+            }
         }
 
 

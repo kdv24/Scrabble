@@ -43,7 +43,7 @@
             $this->assertEquals("2", $result);
         }
 
-        function test_varety_value_3()
+        function test_variety_value_3()
         {
             //Arrange
             $test_variety_value_3 = new Scrabble;
@@ -56,7 +56,7 @@
             $this->assertEquals("3", $result);
         }
 
-        function test_varety_value_4()
+        function test_variety_value_4()
         {
             //Arrange
             $test_variety_value_4 = new Scrabble;
@@ -67,6 +67,19 @@
 
             //Assert
             $this->assertEquals("4", $result);
+        }
+
+        function test_variety_value_5()
+        {
+            //Arrange
+            $test_variety_value_5 = new Scrabble;
+            $player_input = "K";
+
+            //Act
+            $result = $test_variety_value_5->getWordValue($player_input);
+
+            //Assert
+            $this->assertEquals("5", $result);
         }
     }
 ?>

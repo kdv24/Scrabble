@@ -17,7 +17,7 @@ x 3.  Input of single letter ( B C M P) returns single letter value of "3"
 Input: "B"
 Output: "3"
 
-4.  Input of single letter (F H V W Y) returns single letter value of "4"
+x 4.  Input of single letter (F H V W Y) returns single letter value of "4"
 Input: "F"
 Output: "4"
 
