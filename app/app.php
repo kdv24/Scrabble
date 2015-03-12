@@ -13,6 +13,10 @@
             return $app['twig'] -> render('home.twig');
     });
 
+// scrabble_logic is path from form
+
 return $app;
+
+
 
 ?>
