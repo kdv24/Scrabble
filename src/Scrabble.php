@@ -3,9 +3,9 @@
     {
         function getWordValue($player_input)
         {   $score = 0;
+            $player_inputUC = strtoupper($player_input);
             $input_characters = array();
-            $input_characters = str_split(ucwords($player_input));
-            // var_dump($input_characters);
+            $input_characters = str_split($player_inputUC);
             foreach ($input_characters as $letter)
             {
                 //A E I O U L N R S T
