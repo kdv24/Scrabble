@@ -32,4 +32,14 @@ Output: "10"
 Input: "A A"
 Output: "2"
 
-9
+9. Input of number returns "Try Again"
+Input "7"
+Output: "Try Again"
+
+10.  Input that doesn't include vowel returns "Try Again"
+Input: "B"
+Output: "Try Again"
+
+11.  Input that is multiple letters and doesn't include a Y or a vowel returns "Try Again"
+Input: "BC"
+Output: "Try Again"
